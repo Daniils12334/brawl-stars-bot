@@ -11,7 +11,8 @@ int main() {
     #if defined(DEBUGING)
     cout << "OpenCV version: " << CV_VERSION << "\n";
     #endif // DEBUGING
-    
+    // int a,b = 10;
+    // return b = 15 ? a = 10 : a = 45;
     // Create a blank image 
     Mat image(1080, 1920, CV_8UC3, Scalar(123, 123, 200));
 
