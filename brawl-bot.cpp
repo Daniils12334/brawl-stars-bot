@@ -12,7 +12,7 @@ int main() {
     cout << "OpenCV version: " << CV_VERSION << "\n";
     #endif // DEBUGING
     
-    // Create a blank image (200x200) with a red color
+    // Create a blank image 
     Mat image(1080, 1920, CV_8UC3, Scalar(123, 123, 200));
 
     // Display the image
