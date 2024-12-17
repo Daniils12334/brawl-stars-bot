@@ -4,20 +4,21 @@
 #include <opencv2/opencv.hpp>
 #define DEBUGING
 using namespace std;
+using namespace cv;
 
 int main() {
     // Print OpenCV version
     #if defined(DEBUGING)
-    std::cout << "OpenCV version: " << CV_VERSION << "\n";
+    cout << "OpenCV version: " << CV_VERSION << "\n";
     #endif // DEBUGING
     
     // Create a blank image (200x200) with a red color
-    cv::Mat image(1080, 1920, CV_8UC3, cv::Scalar(123, 123, 200));
+    Mat image(1080, 1920, CV_8UC3, Scalar(123, 123, 200));
 
     // Display the image
-    cv::imshow("Test Image", image);
-    cv::waitKey(0);
-    cv::destroyAllWindows();
+    imshow("Test Image", image);
+    waitKey(0);
+    destroyAllWindows();
 
     return 0;
 }
