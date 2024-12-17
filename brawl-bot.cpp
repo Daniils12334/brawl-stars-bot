@@ -34,7 +34,7 @@ int main() {
 
 // void show_array(int *anton, size_t size){
 //     for (size_t i = 0; i < size; i++) {
-//         cout << "Number: "<< i << '\t' << anton[i]<< endl;
+//         cout << "Number: "<< i << '\t' << anton[i]<< "\n";
 //     }
 //     cout << endl; 
 // }
