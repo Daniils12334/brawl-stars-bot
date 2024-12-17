@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     // Print OpenCV version
     #if defined(DEBUGING)
-    std::cout << "OpenCV version: " << CV_VERSION << std::endl;
+    std::cout << "OpenCV version: " << CV_VERSION << "\n";
     #endif // DEBUGING
     
     // Create a blank image (200x200) with a red color
